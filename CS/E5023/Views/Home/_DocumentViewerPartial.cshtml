@@ -1,0 +1,15 @@
+@model List<E5023.Models.Category>
+@Html.DevExpress().DocumentViewer(settings => {
+    settings.Name = "DocumentViewer";
+    settings.CallbackRouteValues = new {
+        Controller = "Home",
+        Action = "DocumentViewerPartial"
+    };
+    settings.ExportRouteValues = new {
+        Controller = "Home",
+        Action = "DocumentViewerPartialExport"
+    };
+    settings.Report = new E5023.Reports.CategoriesReport() {
+        DataSource = Model
+    };
+}).GetHtml()
