@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/E5023/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/E5023/Controllers/HomeController.vb))
+* [Category.cs](./CS/E5023/Models/Category.cs) (VB: [Category.vb](./VB/E5023/Models/Category.vb))
+* [CategoriesReport.cs](./CS/E5023/Reports/CategoriesReport.cs) (VB: [CategoriesReport.vb](./VB/E5023/Reports/CategoriesReport.vb))
+* **[_DocumentViewerPartial.cshtml](./CS/E5023/Views/Home/_DocumentViewerPartial.cshtml)**
+* [Index.cshtml](./CS/E5023/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # How to bind a report displayed in the DocumentViewer extension to the model's data
 
 
