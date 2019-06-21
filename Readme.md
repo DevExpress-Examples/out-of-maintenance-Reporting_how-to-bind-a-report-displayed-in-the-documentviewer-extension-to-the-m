@@ -7,6 +7,9 @@
 * [Index.cshtml](./CS/E5023/Views/Home/Index.cshtml)
 <!-- default file list end -->
 # How to bind a report displayed in the DocumentViewer extension to the model's data
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e5023)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how you can bind a Report in your ASP.NET MVC application to your model class.</p>
